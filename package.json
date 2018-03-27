@@ -1,0 +1,29 @@
+{
+  "name": "infotec2018-frontendtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-import": "^11.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

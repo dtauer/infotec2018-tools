@@ -1,0 +1,74 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    link(rel="stylesheet", href="css/styles.css")
+  body
+    .wrapper
+      section.top
+        header.hero
+          h1 Camera Sale!
+          p Everything must go!
+        .cta.cta1
+          p.price $899
+          p Cannon 80D
+        .cta.cta2
+          p.price $50
+          p Nifty 50
+      nav.menu
+        button(aria-expanded="false" aria-controls="menu-list")
+          span.open ☰ 
+          span.close × 
+          | Menu
+        ul#menu-list
+          li
+            a(href="") Cameras
+          li
+            a(href="") Lenses
+          li
+            a(href="") Accessories
+          li
+            a(href="") Bags
+          li
+            a(href="") Clearance
+      section.features
+        .feature
+          span.icon 📷
+          h3 Cameras
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.
+        .feature
+          span.icon 📹
+          h3 Camcorders
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.
+        .feature
+          span.icon 📽
+          h3 Reel to Reel
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.
+        .feature
+          span.icon 💾
+          h3 Storage
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.
+      
+      block content
+        p The page content goes here
+
+      section.gallery
+        h2 Photo Stream
+        img(src="https://source.unsplash.com/random/201x201/?camera", alt="")
+        img(src="https://source.unsplash.com/random/202x202/?camera", alt="")
+        img(src="https://source.unsplash.com/random/203x203/?camera", alt="")
+        img(src="https://source.unsplash.com/random/204x204/?camera", alt="")
+        img(src="https://source.unsplash.com/random/201x201/?camera", alt="")
+        img(src="https://source.unsplash.com/random/202x202/?camera", alt="")
+        img(src="https://source.unsplash.com/random/203x203/?camera", alt="")
+        img(src="https://source.unsplash.com/random/204x204/?camera", alt="")
+        img(src="https://source.unsplash.com/random/201x201/?camera", alt="")
+        img(src="https://source.unsplash.com/random/202x202/?camera", alt="")
+      section.cred
+        p 
+          | Inspired By: 
+          a(href="https://cssgrid.io") Wes Bos
+      
+      script(src="js/scripts.js")
